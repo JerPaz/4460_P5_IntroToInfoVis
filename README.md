@@ -4,5 +4,5 @@ Relocation of 4460 Project about Information Visualization
 
 P5_IntroToInfoVis
 ----------------
-A visualization of colleges and data across the United States
-Uses JavaScript (d3 library) and HTML/CSS
+* A visualization of colleges and data across the United States
+* Uses JavaScript (d3 library) and HTML/CSS
