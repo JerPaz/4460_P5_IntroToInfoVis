@@ -1,0 +1,95 @@
+body {
+  font: 12px sans-serif;
+}
+.tick > line {
+	fill: none;
+	stroke: black;
+}
+.tick > text {
+	fill: black;
+}
+.selected {
+	stroke: red;
+	fill:red;
+}
+.selected2 {
+	stroke:yellow;
+	fill:yellow;
+}
+/*Added public and private instead of unselected*/
+.Public {
+	stroke: green;
+	fill: green;
+}
+.Private {
+	stroke: blue;
+	fill: blue;
+}
+path.domain {
+	fill: none;
+	stroke-width: 2px;
+	stroke: black;
+}
+#wrapper {
+	clear:both;
+}
+#chart1 {
+	left:405px;
+	position:absolute;
+    float:left;
+}
+#chart2{
+	left:905px;
+	position:absolute;
+	float:left;
+}
+
+#chart3 {
+	/*bottom:-375px;*/
+	left:405px;
+	top:482px;
+	position:absolute;
+	float:left;
+}
+#chart4 {
+	/*bottom:-375px;*/
+	top:482px;
+	left:905px; /*was 508 px*/
+	position:absolute;
+	float:left;
+}
+
+#chart5 {
+	top:522px;
+	left:1492px;
+	position:absolute;
+	float:left;
+}
+
+#chart6 {
+	top:522px;
+	left:30px;
+	position:absolute;
+	float:left;
+}
+
+#uniName {
+	text-decoration:underline;
+}
+
+.uni {
+	text-decoration:underline;
+}
+
+.select{
+	top:30px;
+	left:30px;
+	position:absolute;
+	float:left;
+}
+
+.brush .extent {
+	fill-opacity: .1;
+	stroke: #fff;
+	shape-rendering: crispEdges;
+}
